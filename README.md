@@ -1,5 +1,8 @@
 ## やったこと
 
+
+``` bash
+
 # install typescript
 npm install -g typescript
 
@@ -11,3 +14,5 @@ vi hello.ts
 
 # コンパイル
 tsc hello.ts
+
+```
