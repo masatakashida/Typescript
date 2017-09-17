@@ -11,4 +11,15 @@ var MyClass = (function () {
 }());
 ;
 var msg = new MyClass("Hello", "this is TypeScript sample!");
+
 document.write(msg.print());
+
+document.write('<h1>Sample!</h1>');
+
+var price = 1000;
+var tax = 0.08;
+
+var res = price * (1.0 * tax);
+var msg1 = price + '円の税込価格は、' + res + '円です。';
+
+document.write(msg1);
